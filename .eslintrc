@@ -1,3 +1,8 @@
 {
-    "extends": ["next", "prettier"]
+    "extends": ["next", "prettier"],
+    "rules": {
+        "quotes": [2, "double"],
+        "semi": [2, "always"], //语句强制分号结尾
+        "no-multiple-empty-lines": [2, { "max": 1 }] //空行最多不能超过2行
+    }
 }
